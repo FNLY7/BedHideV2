@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "bedhide",
+  "version": "${version}",
+  "name": "Bed Hide",
+  "description": "Hide-and-seek mod: Spieler liegt als 3D-Modell unter einem Bett.",
+  "authors": ["FNLY"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.fnly.bedhide.BedHideMod"],
+    "client": ["de.fnly.bedhide.BedHideClient"]
+  },
+  "mixins": ["bedhide.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.x",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
